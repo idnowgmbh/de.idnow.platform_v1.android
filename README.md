@@ -148,7 +148,7 @@ try {
 You can set the new branding (Circular background for the buttons)
 
 ```
-IDnowSDK.setNewBrand(TRUE);
+UnifiedSDK.setNewBrand(TRUE);
 	
 ```
 
