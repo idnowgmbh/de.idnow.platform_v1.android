@@ -154,7 +154,7 @@ IDnowSDK.setNewBrand(TRUE);
 
 ## Design configuration
 
-### Colors && Text
+### Colors & Text
 
 The SDK is designed with colors and texts following the IDnow corporate design. You can use the SDK without making any adaptions to the colors at all. If, however you want the SDK screens to appear in different colors and different texts could be changed via customer config.
 
