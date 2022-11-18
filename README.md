@@ -128,7 +128,7 @@ Here is the full example:
 ```java
 try {
 	// Initialize with your activity which will handle the SDK callback and pass the id of your company.
-	//	IDnowSDK is a singleton class, so just call it with UnifiedSDK.getInstance()
+	//	UnifiedSDK is a singleton class, so just call it with UnifiedSDK.getInstance()
 	UnifiedSDK.getInstance().initialize(StartActivity.this, “demounifiedident);
 
 	// Set the transactionToken, for example from a TextField
@@ -136,56 +136,14 @@ try {
 
 	// To actually start the identification process, pass the transactionToken.
 	UnifiedSDK.getInstance().start(UnifiedSDK.getTransactionToken(context));
+	
+	
 } catch (Exception e) {
 	// The SDK checks the input parameters and throws an exception if they don't seem right.
 	e.printStackTrace();
 }
 ```
 
-The SDK checks the input parameters and throws an Exception if something is deemed not right, to provide you with quick feedback. Handle it as desired.
-
-To handle the results of the identification, implement the standard onActivityResult function in your activity.:
-
-```
-	@Override
-	protected void onActivityResult( int requestCode, int resultCode, Intent data )
-	{
-		if ( requestCode == IDnowSDK.REQUEST_ID_NOW_SDK )
-		{
-			if ( resultCode == IDnowSDK.RESULT_CODE_SUCCESS )
-			{
-                If ( data != null )
-                {
-                    String transactionToken = data.getStringExtra(IDnowSDK.RESULT_DATA_TRANSACTION_TOKEN);
-                    Log.v(TAG, "success, transaction token: " + transactionToken);
-                }
-			}
-			else if ( resultCode == IDnowSDK.RESULT_CODE_CANCEL )
-			{
-                if ( data != null )
-                {
-                    String transactionToken = data.getStringExtra(IDnowSDK.RESULT_DATA_TRANSACTION_TOKEN);
-                    String errorMessage = data.getStringExtra(IDnowSDK.RESULT_DATA_ERROR);
-                    Log.v(TAG, "canceled, transaction token: " + transactionToken + “, error: “ + errorMessage);
-                }
-			}
-			else if ( resultCode == IDnowSDK.RESULT_CODE_FAILED )
-			{
-                if ( data != null )
-                {
-                    String transactionToken = data.getStringExtra(IDnowSDK.RESULT_DATA_TRANSACTION_TOKEN);
-                    String errorMessage = data.getStringExtra(IDnowSDK.RESULT_DATA_ERROR);
-                    Log.v(TAG, "failed, transaction token: " + transactionToken + “, error: “ + errorMessage);
-                }
-			}
-			else
-			{
-				Log.v(TAG, "Result Code: " + resultCode);
-			}
-		}
-	}
-
-```
 
 ## Additional settings
 
