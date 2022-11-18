@@ -1,7 +1,6 @@
  # Table of Contents
    
 - [Overview](#overview)
-  - [Examples](#examples)
   - [Requirements](#requirements)
   - [AndroidManifest](#androidmanifest)
 - [Android Studio](#android-studio)
@@ -16,10 +15,6 @@
 ## Overview
 
 This SDK supports AndroidStudio.
-
-### Examples
-
-Please see https://github.com/idnow/de.idnow.android-sample for a sample applications
 
 ### Requirements
 
