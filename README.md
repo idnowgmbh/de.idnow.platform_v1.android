@@ -75,8 +75,6 @@ implementation 'de.idnow.android.eid:idnow-android-eid-sdk:2.5.1.1'
 
 ### How to use the .aar file:
 
-[![Watch the video](https://github.com/idnow/de.idnow.android/blob/master/docs/Screenshot_video2.png)](https://youtu.be/yMIpthcLRnw)
-
 Copy the idnow-android-platform-1.0.0.aar into the apps libs folder.
 
 In your app.gradle add:
