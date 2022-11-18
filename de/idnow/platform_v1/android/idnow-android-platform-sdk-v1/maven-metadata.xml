@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>de.idnow.platform_v1.android</groupId>
+  <artifactId>idnow-android-platform-sdk-v1</artifactId>
+  <versioning>
+    <latest>1.0.0</latest>
+    <release>1.0.0</release>
+    <versions>
+      <version>1.0.0</version>
+    </versions>
+    <lastUpdated>20221118143104</lastUpdated>
+  </versioning>
+</metadata>

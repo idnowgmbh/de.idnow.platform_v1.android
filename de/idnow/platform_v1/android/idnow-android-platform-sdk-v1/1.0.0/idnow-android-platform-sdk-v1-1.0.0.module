@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "de.idnow.platform_v1.android",
+    "module": "idnow-android-platform-sdk-v1",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "7i266ggrvna3zekwioo53pokvu"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-fragment",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-ui",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.google.ar",
+          "module": "core",
+          "version": {
+            "requires": "1.32.0"
+          }
+        },
+        {
+          "group": "de.idnow.sdk",
+          "module": "idnow-android-sdk",
+          "version": {
+            "requires": "5.2.0.2"
+          }
+        },
+        {
+          "group": "de.idnow.android.eid",
+          "module": "idnow-android-eid-sdk",
+          "version": {
+            "requires": "2.5.1.1"
+          }
+        },
+        {
+          "group": "de.idnow.android.sdk",
+          "module": "idnow-platform",
+          "version": {
+            "requires": "5.0.1.3"
+          }
+        },
+        {
+          "group": "com.airbnb.android",
+          "module": "lottie",
+          "version": {
+            "requires": "5.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "idnow-android-platform-sdk-v1-1.0.0.aar",
+          "url": "idnow-android-platform-sdk-v1-1.0.0.aar",
+          "size": 342529,
+          "sha512": "75fc3cc4fbc0834e407d91078c041bf373ad7dad8decb7308a12ba7680464a84c73fc13751a442e2016453d9e220e82c766fb4ceb487f45a86eeae497b51fc00",
+          "sha256": "6fd7d047a3f7a2bc1542d983f091213af3d7826435429e3cf272be90b145fe5b",
+          "sha1": "082a65d52769b019a8e3461df6975d6ef371042f",
+          "md5": "227af5852ba58c96996120a4f75d0e27"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "idnow-android-platform-sdk-v1-1.0.0.aar",
+          "url": "idnow-android-platform-sdk-v1-1.0.0.aar",
+          "size": 342529,
+          "sha512": "75fc3cc4fbc0834e407d91078c041bf373ad7dad8decb7308a12ba7680464a84c73fc13751a442e2016453d9e220e82c766fb4ceb487f45a86eeae497b51fc00",
+          "sha256": "6fd7d047a3f7a2bc1542d983f091213af3d7826435429e3cf272be90b145fe5b",
+          "sha1": "082a65d52769b019a8e3461df6975d6ef371042f",
+          "md5": "227af5852ba58c96996120a4f75d0e27"
+        }
+      ]
+    }
+  ]
+}
